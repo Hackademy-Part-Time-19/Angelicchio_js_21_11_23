@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trova palindromi</title>
+</head>
+<body>
+    
+    <script>
+        while (1<2){
+            let stringa = prompt("Inserire una frase");
+            let newStringa = stringa.replace(/[^\w\s]/g, "").replace(/\s+/g, "");
+            let stringaInvertita = newStringa.split("").reverse().join("");
+            if(stringaInvertita == newStringa){
+                alert(true);
+            }
+            else{
+                alert(false);
+            }
+        }
+        
+    </script>
+
+</body>
+</html>
