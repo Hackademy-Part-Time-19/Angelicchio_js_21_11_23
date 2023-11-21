@@ -27,7 +27,7 @@ let listaProdotti = [
 listaProdotti.sort((a, b) => a.nome.localeCompare(b.nome));
 console.log(listaProdotti);
 
-/* Ordina per nome prezzo */
+/* Ordina per prezzo */
 listaProdotti.sort((a, b) => a.prezzo-b.prezzo);
 console.log(listaProdotti)
 
